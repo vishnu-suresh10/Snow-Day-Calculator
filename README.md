@@ -17,9 +17,8 @@ What things you need to install the software and how to install them
 * Bootstrap
 
 ```
-pip install sklearn
-pip install flask
-pip install wtforms
+clone https://github.com/vishnu-suresh10/Snow-Day-Calculator.git
+pip install -U -r requirements.txt 
 ```
 
 All Libraries Used
