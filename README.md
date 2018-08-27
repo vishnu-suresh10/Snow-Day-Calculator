@@ -16,12 +16,6 @@ What things you need to install the software and how to install them
 * Wtforms
 * Bootstrap
 
-```
-clone https://github.com/vishnu-suresh10/Snow-Day-Calculator.git
-
-pip install -U -r requirements.txt 
-```
-
 All Libraries Used
 
 ```
@@ -34,6 +28,12 @@ from sklearn import tree
 ### Installing
 
 Download the repository from Github(https://github.com/vishnu-suresh10/Snow-Day-Calculator). Then open Command Prompt or Shell and navigate to the directory.
+
+```
+clone https://github.com/vishnu-suresh10/Snow-Day-Calculator.git
+
+pip install -U -r requirements.txt 
+```
 
 Then run the command
 ```
