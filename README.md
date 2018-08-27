@@ -52,4 +52,4 @@ We use [SemVer](http://semver.org/) for versioning. We are currently on version 
 
 ## Authors
 
-* **Vishnu Suresh** - *Created and Developed the the Frontend and Backend* - [Vishnu-Suresh10](https://github.com/vishnu-suresh10)
+* **Vishnu Suresh** - *Created and Developed the the Frontend and Backend* - [Vishnu Suresh](https://github.com/vishnu-suresh10)
