@@ -18,6 +18,7 @@ What things you need to install the software and how to install them
 
 ```
 clone https://github.com/vishnu-suresh10/Snow-Day-Calculator.git
+
 pip install -U -r requirements.txt 
 ```
 
