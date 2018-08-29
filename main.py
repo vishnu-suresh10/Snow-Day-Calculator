@@ -3,6 +3,13 @@ from wtforms import Form, TextField, TextAreaField, validators, StringField, Sub
 
 from sklearn import tree
 
+from tinydb import TinyDB,Query
+
+db = TinyDB('db.json')
+# from flask_sqlalchemy import SQLAlchemy
+
+# db = SQLAlchemy()
+
 # Inches, Days Cancelled
 X = [[0,0],[0,1],[0,2],[0,3],[0,4],[0,5],[0,6],[0,7],
     [1,0],[1,1],[1,2],[1,3],[1,4],[1,5],[1,6],[1,7],
@@ -51,11 +58,11 @@ class ReusableForm(Form):
 def hello():
     form = ReusableForm(request.form)
 
-    print form.errors
+    # print (form.errors)
     if request.method == 'POST':
         name=request.form['name']
         daysOfNoSchool=request.form['daysOfNoSchool']
-        print name
+        # print name
 
         if form.validate():
             # Save the comment here.
@@ -68,6 +75,9 @@ def hello():
                 formatedPrediction = formatResults(predictionToString)
 
                 flash('There will be ' + formatedPrediction)
+
+                db.insert({'Inches':name, 'Days of No School':daysOfNoSchool})
+
             else:
                 retVal = 'Invalid Values entered'
                 flash(retVal)
