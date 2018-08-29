@@ -13,6 +13,7 @@ What things you need to install the software and how to install them
 * Python 2
 * Scikit Learn
 * Flask
+* TinyDB
 * Wtforms
 * Bootstrap
 
@@ -23,6 +24,8 @@ from flask import Flask, render_template, flash, request
 from wtforms import Form, TextField, TextAreaField, validators, StringField, SubmitField
 
 from sklearn import tree
+
+from tinydb import TinyDB,Query
 ```
 
 ### Installing
@@ -44,13 +47,14 @@ python main.py
 
 * [Scikit Learn](http://scikit-learn.org/stable/)
 * [Flask](http://flask.pocoo.org/)
+* [TinyDB](https://tinydb.readthedocs.io/en/latest/)
 * [WTForms](https://wtforms.readthedocs.io/en/stable/)
 * [Bootstrap](https://getbootstrap.com/)
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. We are currently on version 2.0.0
+We use [SemVer](http://semver.org/) for versioning. We are currently on version 2.1.0
 
 ## Authors
 
-* **Vishnu Suresh** - *Created and Developed the the Frontend and Backend* - [Vishnu Suresh](https://github.com/vishnu-suresh10)
+* **Vishnu Suresh** - *Created and Developed the the Frontend and Backend* - [Vishnu Suresh](vishnu-suresh10.github.io)
