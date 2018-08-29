@@ -10,3 +10,4 @@ scipy==1.1.0
 sklearn==0.0
 Werkzeug==0.14.1
 WTForms==2.2.1
+tinydb==3.11.0
